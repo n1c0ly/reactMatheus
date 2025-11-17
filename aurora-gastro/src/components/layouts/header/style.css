@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+
+
+
+.nav-header ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-header ul li a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+header .container-btn-header a {
+    padding: 20px 30px;
+    background-color: #EA6D27;
+    border-radius: 15px 3px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
