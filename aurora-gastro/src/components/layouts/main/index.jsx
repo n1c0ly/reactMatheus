@@ -2,7 +2,7 @@ import illustrationMain from './../../../images/illustration-main.svg';
 import './style.css';
 export const Main = () => {
   return (
-      <>
+      
   <main>
   <div className="content-main">
     <h1>A <span>melhor experiência</span> gastronômica da cidade</h1>
@@ -17,7 +17,7 @@ export const Main = () => {
   <img src={illustrationMain} alt="" />
   </main>
   
-  </>
+
   )
 
   

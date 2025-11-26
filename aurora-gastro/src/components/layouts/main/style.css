@@ -14,27 +14,30 @@ main{
 .content-main p {
     width: 530px;
     font-size: 18px;
-    color: #5C6574;
+    color: var(--color-1_gray);
+    font-family: var(--font-family-body);
+    line-height: 30px;
 }
 .content-main h1 {
-   
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 60px;
-    color: black;
-    margin-bottom: 24px;
+   font-family: var(--font-family-title);
+   font-weight: 700;
+   font-size: 60px;
+   line-height: 60px;
+   color:var(--color-dark);
+   margin-bottom: 24px;
 }
 
 .content-main span {
     font-weight: 600;
     font-size: 60px;
-    line-height: 24px;
-    color: #EA6D27;
-
-
+    color: var(--color-orange);
+    
+    
 }
 
 .buttons-main{
+    font-family: var(--font-family-title);
+    font-family: var();
     margin-top: 40px;
     display: flex;
     gap: 20px;

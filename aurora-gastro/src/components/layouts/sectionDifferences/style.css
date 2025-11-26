@@ -1,0 +1,13 @@
+.section-differences{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+}
+
+.container-card-difference{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}

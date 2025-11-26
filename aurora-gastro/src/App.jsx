@@ -1,13 +1,14 @@
-import { Diferenciais } from "./components/layouts/diferenciais"
+
 import { Header } from "./components/layouts/header"
 import { Main } from "./components/layouts/main"
+import { SectionDifferences } from "./components/layouts/sectionDifferences"
 
 function App() {
   return (
     <>
       <Header />
       <Main />
-      <Diferenciais />
+   <SectionDifferences/>
     </>
   )
 }
